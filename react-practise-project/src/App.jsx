@@ -3,7 +3,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import UseReducerHook from "./componets/useReducerHook";
 // import ThemeCode from "./componets/ThemeCode";
 // import TodoList from "./componets/TodoList";
-import PasswordValidator from "./componets/PasswordValidator";
+// import PasswordValidator from "./componets/PasswordValidator";
+import FormSet from "./componets/FormSet";
+import TableSet from "./componets/TableSet";
+import Practisetable from "./componets/Practisetable";
 
 
 
@@ -12,7 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<PasswordValidator />} />
+          <Route path="/" element={<Practisetable />} />
         </Routes>
       </BrowserRouter>
     </>
